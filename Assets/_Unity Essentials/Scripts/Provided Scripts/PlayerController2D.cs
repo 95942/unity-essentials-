@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 /// <summary>
 /// Moves forward/backward and rotates with WASD/Arrow keys.
 /// </summary>
-public class PlayerController : MonoBehaviour
+public class PlayerController2D : MonoBehaviour
 {
 [Tooltip("Forward/back speed (units/sec).")]
 public float speed = 5.0f;
